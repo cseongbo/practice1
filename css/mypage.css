@@ -6,21 +6,24 @@
 }
 
 #info {
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #000000;
   border-radius: 20px;
+  background-color: lavender;
 }
 
 #post-management {
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #000000;
   border-radius: 20px;
+  background-color: lavender;
 }
 
 #info-management {
   border: 1px solid #000000;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
+  background-color: lavender;
 }
 
 h1 {
