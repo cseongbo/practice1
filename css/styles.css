@@ -1,0 +1,96 @@
+/*기본 스타일*/
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/*컨테이너 스타일*/
+
+.board-container {
+  width: 80%;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*제목 스타일*/
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 5xp;
+}
+
+/*테이블 스타일*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+th {
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+}
+
+td a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+/* 페이지네이션 스타일 */
+.pagination {
+  margin: 20px 0;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 4px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  background-color: #000;
+  color: white;
+}
+
+.pagination a:hover {
+  background-color: #000;
+  color: white;
+}
+
+/* 목록 버튼 스타일 */
+.btn-list {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-list:hover {
+  background-color: #333;
+}
