@@ -1,0 +1,32 @@
+#ct {
+  width: 100px;
+}
+#ct2 {
+  width: 100px;
+}
+
+#info {
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  background-color: lavender;
+}
+
+#post-management {
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  background-color: lavender;
+}
+
+#info-management {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: lavender;
+}
+
+h1 {
+  height: 100px;
+  text-align: center;
+}
