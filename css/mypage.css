@@ -1,0 +1,29 @@
+#ct {
+  width: 100px;
+}
+#ct2 {
+  width: 100px;
+}
+
+#info {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+#post-management {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+#info-management {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1 {
+  height: 100px;
+  text-align: center;
+}
