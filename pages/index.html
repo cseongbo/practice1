@@ -15,14 +15,17 @@
         height: 50px;
         margin: 30px 100px;
         text-align: center;
-        border-collapse: collapse;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 10px;
         table-layout: fixed;
       }
-      #top_menu_bar_table td {
-        border-radius: 10px;
+      .table_td {
         border-right: 1px solid black;
-        padding: 10px;
         text-align: center;
+      }
+      .table_td > a:hover {
+        transform: scale(1.2);
       }
     </style>
   </head>
@@ -31,9 +34,9 @@
       <div id="top_menu_bar_div">
         <table id="top_menu_bar_table">
           <tr>
-            <td><a href="">마이페이지</a></td>
-            <td><a href="login.html">로그인</a></td>
-            <td><a href="">게시물 목록</a></td>
+            <td class="table_td"><a href="">마이페이지</a></td>
+            <td class="table_td"><a href="login.html">로그인</a></td>
+            <td class="table_td"><a href="">게시물 목록</a></td>
           </tr>
         </table>
       </div>
